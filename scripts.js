@@ -111,4 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
     popupWindow.addEventListener('click', function() {
         togglePopupWindow();
     });
+    // TEMPORARY SCRIPTS !!
+    document.onclick = function() {
+        window.location.href = "temp.html";
+    };
 });
